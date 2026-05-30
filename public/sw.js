@@ -1,5 +1,5 @@
-const APP_CACHE = 'kam-stable-app-v1'
-const RUNTIME_CACHE = 'kam-stable-runtime-v1'
+const APP_CACHE = 'kam-stable-app-v394'
+const RUNTIME_CACHE = 'kam-stable-runtime-v394'
 const APP_SHELL = ['/', '/manifest.webmanifest', '/icon.svg']
 
 self.addEventListener('install', event => {

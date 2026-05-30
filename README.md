@@ -1,45 +1,31 @@
-# Kevin Audio Memory Stable
+# Kevin Audio Memory Stable (V3.9.4)
 
 Stable = daily learning version.
 
-This repository is the long-term stable branch of Kevin Audio Memory for daily iPhone learning.
+This repository is locked to the V3.9.4 Audio First baseline for daily use.
 
-## Positioning
-- Audio First learning workflow
-- Stable and simple daily usage
-- No experimental feature expansion
-
-## Maintenance Rules (Strict)
+## Rules
 Allowed:
-- Fix critical bugs
-- Fix run failures
-- Fix audio upload / playback / save issues
-- Fix obvious UI layout issues
+- Critical bug fixes
+- Run/deploy fixes
+- Audio import/playback/save fixes
+- Obvious UI alignment fixes
 
 Not allowed:
 - Large feature additions
-- Training flow refactor
-- Large UI redesign
+- Flow refactor
 - Experimental AI modules
-- Complex reporting / dashboard expansion
+- Complex dashboard/reporting expansion
 
-## Local Run
-
+## Local
 ```bash
 npm install
 npm run dev
 ```
-
-Default local URL:
-- http://localhost:5181/
+Default: http://localhost:5181/
 
 ## Deploy (Vercel)
 - Framework: Vite
-- Build Command: `npm run build`
-- Output Directory: `dist`
-- Required env:
-  - `OPENAI_API_KEY`
-
-## Notes
-- This repo should stay stable for real learning use.
-- New ideas must be implemented in `kevin-english-dev` first.
+- Build Command: npm run build
+- Output Directory: dist
+- Env: OPENAI_API_KEY
