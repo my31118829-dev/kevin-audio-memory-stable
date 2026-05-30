@@ -1,0 +1,17 @@
+{
+  "name": "Kevin Audio Memory Stable",
+  "short_name": "KAM Stable",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FAFAF7",
+  "theme_color": "#1F3B2D",
+  "lang": "zh-CN",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
