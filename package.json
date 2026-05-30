@@ -1,12 +1,11 @@
 {
   "name": "kevin-audio-memory-stable",
   "private": true,
-  "version": "3.9.4",
+  "version": "1.7.2",
   "type": "module",
   "scripts": {
     "dev": "node server.mjs",
-    "build": "npm run check:repo && vite build",
-    "check:repo": "node scripts/check-tracked-node-modules.mjs",
+    "build": "vite build",
     "preview": "node server.mjs --prod"
   },
   "dependencies": {
