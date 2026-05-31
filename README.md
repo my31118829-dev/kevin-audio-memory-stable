@@ -1,4 +1,4 @@
-# Kevin Audio Memory Stable
+# Mandy English (Stable)
 
 Stable baseline: 2026-05-22 dialogue-focused upgrade (commit 0cb82c0 source line).
 
